@@ -97,3 +97,42 @@
     font-size: 1rem;
     font-weight: bold;
 }
+
+.modal {
+    position: fixed;
+    display: none;
+    z-index: 200;
+    top: 20%;
+    left: 30%;
+    width: 40%;
+    background: #c0bbd1;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.7);
+}
+
+.modal--title {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.modal-actions {
+    text-align: center;
+}
+
+.modal-action {
+    border: 1px solid #1565c0;
+    background: #1565c0;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: inherit;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+.modal-action--negetive {
+    background: #d81b60;
+    border: 1px solid #d81b60;
+    padding: 0.6rem;
+}
