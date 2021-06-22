@@ -1,7 +1,13 @@
 #overview {
     width: 100%;
-    height: 600px;
+    height: 30vh;
     background: url(../images/Wallpaper.jpg) center/cover no-repeat scroll;
+}
+
+@media(min-width:40rem) {
+    #overview {
+        height: 50vh;
+    }
 }
 
 .section-title {
@@ -15,11 +21,9 @@
 }
 
 .plan {
-    width: 30%;
+    width: 100%;
     padding: 1rem;
     margin: 0.5rem;
-    display: inline-block;
-    vertical-align: middle;
     text-align: center;
     color: #424242;
     box-shadow: 0 0 1.5rem 5px rgba(0, 0, 0, 0.7);
@@ -60,6 +64,14 @@
     font-weight: bold;
 }
 
+@media (min-width:40rem) {
+    .plan {
+        display: inline-block;
+        vertical-align: middle;
+        width: 30%;
+    }
+}
+
 #features {
     background: #e3f2fd;
     padding: 1rem;
@@ -77,11 +89,6 @@
     text-align: center;
 }
 
-.features-list--element {
-    display: inline-block;
-    width: 30%;
-}
-
 .features-img {
     background: #bbdefb;
     width: 8rem;
@@ -96,6 +103,13 @@
     color: #1976d2;
     font-size: 1rem;
     font-weight: bold;
+}
+
+@media(min-width:40rem) {
+    .features-list--element {
+        display: inline-block;
+        width: 30%;
+    }
 }
 
 .modal {
